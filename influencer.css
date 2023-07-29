@@ -35,6 +35,9 @@ font-size: 1.2rem;
 font-weight: 600;
 }
 .section-1{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
     display: flex;
     width: 100%;
     margin-top: 2rem;
@@ -78,6 +81,9 @@ background: #E02C6D;
     background-repeat: no-repeat;
 }
 .sponsors{
+    margin-left: auto;
+    margin-right: auto;
+    width: 82%;
     display: flex;
     justify-content: space-evenly;
     border-top: .5px solid skyblue;
@@ -106,7 +112,7 @@ background: #E02C6D;
     font-size: .99rem;
     }
     .section-1{
-        width: 100%;
+        width: 90%;
         flex-direction: column-reverse;
         margin-top: .99rem;
     }
@@ -116,14 +122,22 @@ background: #E02C6D;
     }
     .start-1 h2{
        font-size: 2rem;
+       text-align: center;
+    }
+    .start-1 p{
+        text-align: center;
     }
     .start-2{
         background-image: url(images/Circle\ design.svg);
         width: 60%;
         margin: auto;
+        
     }
     .start-2 img{
         width: 100%;
+    }
+    .button{
+        margin-left: 34%;
     }
     .sponsors{
         flex-wrap: wrap;
@@ -160,7 +174,14 @@ background: #E02C6D;
         margin-top: 1.5rem;
     }
     .start-1 h2{
+        text-align: center;
        font-size: 2rem;
+    }
+    .start-1 p{
+        text-align: center;
+    }
+    .button{
+        margin-left: 38%;
     }
     .start-2{
         background-image: url(images/Circle\ design.svg);
