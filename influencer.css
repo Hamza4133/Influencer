@@ -175,6 +175,9 @@ background: #E02C6D;
         flex-wrap: wrap;
         gap: 1rem;
     }
+    .section-2{
+        grid-template-columns: repeat(1,1fr);
+    }
 }
 
 
@@ -227,5 +230,8 @@ background: #E02C6D;
     .sponsors{
         flex-wrap: wrap;
         gap: 1.5rem;
+    }
+    .section-2{
+        grid-template-columns: repeat(2,1fr);
     }
 }
