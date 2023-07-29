@@ -77,7 +77,17 @@ background: #E02C6D;
     background-image: url(images/Circle\ design.svg);
     background-repeat: no-repeat;
 }
-
+.sponsors{
+    display: flex;
+    justify-content: space-evenly;
+    border-top: .5px solid skyblue;
+    border-bottom: .5px solid skyblue;
+    border-radius: 10re;
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
 
 
 /* mobile devices */
@@ -115,9 +125,16 @@ background: #E02C6D;
     .start-2 img{
         width: 100%;
     }
-    
+    .sponsors{
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
 }
 
+
+
+
+/* medium devices */
 
 @media screen and (min-width:576px) and (max-width:992px) {
     nav{
@@ -152,5 +169,10 @@ background: #E02C6D;
     }
     .start-2 img{
         width: 100%;
+    }
+
+    .sponsors{
+        flex-wrap: wrap;
+        gap: 1.5rem;
     }
 }
