@@ -85,31 +85,23 @@ background: #E02C6D;
       nav{
         flex-direction: column;
         text-align: center;
-
-        border: 2px solid pink;
       }
       .nav1{
         width: 100%;
-
-        border: 2px solid pink;
       }
     .nav2{
         width: 100%;
-        border: 2px solid pink;
     }
     .nav2 h5{
-    
     font-size: .99rem;
     }
     .section-1{
         width: 100%;
         flex-direction: column-reverse;
         margin-top: .99rem;
-        border: 2px solid pink;
     }
     .start-1{
         width: 100%;
-        border: 2px solid pink;
         margin-top: 1.5rem;
     }
     .start-1 h2{
@@ -118,12 +110,47 @@ background: #E02C6D;
     .start-2{
         background-image: url(images/Circle\ design.svg);
         width: 60%;
-        border: 2px solid pink;
         margin: auto;
     }
     .start-2 img{
         width: 100%;
-        border: 2px solid pink;
     }
     
+}
+
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    nav{
+        flex-direction: column;
+        text-align: center;
+      }
+      .nav1{
+        width: 100%;
+      }
+    .nav2{
+        width: 100%;
+    }
+    .nav2 h5{
+    font-size: .99rem;
+    }
+    .section-1{
+        width: 100%;
+        flex-direction: column-reverse;
+        margin-top: .99rem;
+    }
+    .start-1{
+        width: 100%;
+        margin-top: 1.5rem;
+    }
+    .start-1 h2{
+       font-size: 2rem;
+    }
+    .start-2{
+        background-image: url(images/Circle\ design.svg);
+        width: 60%;
+        margin: auto;
+    }
+    .start-2 img{
+        width: 100%;
+    }
 }
