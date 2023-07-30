@@ -159,8 +159,23 @@ background: #E02C6D;
     font-size: 1rem;
 }
 
-
-
+footer{
+    margin-top: 3.3rem;
+    display: flex;
+    flex-direction: column;
+    background: #0A0826;
+    width: 100%;
+    color: #FFF;
+    padding-top: 1.8rem;
+    padding-bottom: 1.8rem;
+  gap: 1rem;
+    text-align: center;
+    
+}
+#last{
+    padding-top: 1rem;
+    padding-bottom: .5rem;
+}
 
 
 
