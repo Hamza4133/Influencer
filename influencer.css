@@ -216,6 +216,15 @@ background: #E02C6D;
     .section-2{
         grid-template-columns: repeat(1,1fr);
     }
+    .section-3{
+        flex-direction: column-reverse;
+    }
+    .features-1{
+        width: 100%;
+    }
+    .features-2{
+        width: 100%;
+    }
 }
 
 
